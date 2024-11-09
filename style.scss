@@ -62,10 +62,10 @@ nav {
 
 .algos {
     display: flex;
-    flex-wrap: wrap;
-    gap: 25px; /* Adds space between buttons */
+    flex-wrap: wrap; /* Allow buttons to wrap to the next line if needed */
+    gap: 15px; /* Space between buttons */
+    justify-content: center; /* Center align buttons */
     padding: 2% 0%;
-    justify-content: center;
 }
 
 button {
@@ -74,9 +74,10 @@ button {
     color: white;
     outline: none;
     padding: 5% 0%;
-    font-size: large;
+    font-size: x-large;
     cursor: pointer;
-    margin: 0 10px; /* Adds horizontal spacing between buttons */
+    min-width: 120px; /* Ensures buttons have a minimum width */
+    text-align: center; /* Centers the text inside buttons */
 }
 
 button:hover {
