@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # SortSpectrum
 A web application showcasing the inner workings of sorting algorithms.
 
@@ -40,5 +40,4 @@ Features:
   2.3) Generation of new data (Randomly generate new data).
 4) Time and Space complexity of algorithm being visualized.
 
-Take a look at live version: https://kethantummala.github.io/Sorting_Visualizer/
->>>>>>> 6172069 (Add project files and folders)
+
