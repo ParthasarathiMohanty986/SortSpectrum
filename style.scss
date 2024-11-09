@@ -1,8 +1,3 @@
-/*
-    *****************
-    DONE BY:-   TUMMALA KETHAN
-    *****************
-*/
 
 * {
     margin: 0px;
@@ -63,7 +58,7 @@ nav {
 .algos {
     display: flex;
     flex-wrap: wrap; /* Allow buttons to wrap to the next line if needed */
-    gap: 15px; /* Space between buttons */
+    gap: 25px; /* Space between buttons */
     justify-content: center; /* Center align buttons */
     padding: 2% 0%;
 }
