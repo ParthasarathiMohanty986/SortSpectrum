@@ -74,14 +74,17 @@ button {
     border: none;
     color: white;
     outline: none;
-    padding: 10px 20px; /* Added padding for better button size */
+    padding: 10px 20px; /* Padding for better button size */
     font-size: x-large;
     cursor: pointer;
-    min-width: 150px; /* Ensures buttons have a minimum width to avoid overlap */
-    text-align: center; /* Centers the text inside buttons */
+    min-width: 100px; /* Minimum width */
+    max-width: 300px; /* Limit width if the text is very long */
+    text-align: center; /* Centers text inside buttons */
     box-sizing: border-box; /* Ensures padding is included in the width */
-    margin-bottom: 10px; /* Added margin to ensure space between rows */
+    margin-bottom: 10px; /* Space between rows */
     white-space: nowrap; /* Prevents button text from wrapping */
+    word-wrap: break-word; /* Ensures long words will break and not overflow */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
 }
 
 button:hover {
